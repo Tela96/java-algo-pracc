@@ -1,5 +1,6 @@
 
 import java.lang.Math;
+import java.lang.StringBuilder;
 
 public class Factorializator
 {

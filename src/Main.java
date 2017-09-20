@@ -33,6 +33,8 @@ public class Main
     StringRepeater sr = new StringRepeater();
     System.out.println(sr.repeat(3, "Hey Vsauce!"));
     
+   StringTruncator st = new StringTruncator();
+   System.out.println(st.truncate("hey vsauce, michael here!", 12));
   }
 }
 

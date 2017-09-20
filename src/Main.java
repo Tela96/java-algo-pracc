@@ -30,6 +30,9 @@ public class Main
       System.out.println(num);
     }
     
+    StringRepeater sr = new StringRepeater();
+    System.out.println(sr.repeat(3, "Hey Vsauce!"));
+    
   }
 }
 

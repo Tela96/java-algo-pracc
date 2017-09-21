@@ -1,4 +1,3 @@
-
 import java.lang.Math;
 import java.lang.StringBuilder;
 
@@ -39,6 +38,8 @@ public class Main
     ArrayChunker ac = new ArrayChunker();
     ac.printResult(new String[]{"H", "e", "y", "v", "s", "a", "u","c","e"},20);
     
+    ArraySlasher as = new ArraySlasher();
+    as.printResult(new String[]{"Hey","Vsauce", "Michael", "here!"}, 2);
   }
 }
 
